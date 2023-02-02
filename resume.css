@@ -1,3 +1,11 @@
+
+html {
+    background-image: url('https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.18169-9/12509014_10208684503858057_8442806408187012989_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vDR2DYGYKJcAX8YF9l5&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfC2Zt8heF4raNMiHqrdXCLHZrV75mPRNgwOpZH3qZeorQ&oe=64037185');
+    background-size: 100%;
+}
+
+
+
 header {
     background-color: green;
 }
@@ -7,23 +15,74 @@ h1 {
     font-size: 100px
 }
 
-li {
+.headerlink {
     display: inline-block;
     font-size: 30px;
     border: 2px solid black;
     margin: 10px;
-    background:red;
+    background: rgb(18, 196, 18);
     
 }
 
-li:hover {
+.headerlink:hover {
     background-color: orange;
+}
+
+body {
+    margin: 5%;
 }
 
 a {
     color: black;
 }
 
-main {
-    margin: 50px;
+.mainclass {
+    background-color: rgba(125, 211, 211, 0.425);
+    padding: 5%;
+    font-size: 40px;
+    margin: 5%;
+}
+
+.upsclass {
+    background-color: rgba(31, 5, 5, 0.9);
+    color: gold;
+    padding: 5%;
+    font-size: 40px;
+    margin: 5%;
+}
+
+.asplundhclass {
+    background-color: rgba(255, 68, 0, 0.8);
+    padding: 5%;
+    font-size: 40px;
+    margin: 5%;
+}
+
+.wrightclass {
+    background-color: rgba(0, 128, 0, 0.801);
+    color: white;
+    padding: 5%;
+    font-size: 40px;
+    margin: 5%;
+}
+
+.axetothegrindclass{
+    background-color:rgba(0, 255, 255, 0.658);
+    padding: 5%;
+    font-size: 40px;
+    margin: 5%;
+}
+
+.certificationclass {
+    background-color: rgba(137, 43, 226, 0.616);
+    padding: 5%;
+    font-size: 40px;
+    margin: 5%;
+}
+
+.personalclass {
+    background-color:rgba(255, 127, 80, 0.644);
+    padding: 5%;
+    font-size: 40px;
+    margin: 5%;
 }
