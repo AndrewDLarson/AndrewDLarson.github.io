@@ -1,19 +1,46 @@
+* {
+   
+}
 
 html {
     background-image: url('https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.18169-9/12509014_10208684503858057_8442806408187012989_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vDR2DYGYKJcAX8YF9l5&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfC2Zt8heF4raNMiHqrdXCLHZrV75mPRNgwOpZH3qZeorQ&oe=64037185');
     background-size: 100%;
 }
 
+#upshtml {
+    background-image: url('https://www.fox19.com/resizer/BZ0jwK1W4msd0pkgSElOhHNyb9M=/arc-photo-gray/arc3-prod/public/52A3M2G5CRFA7BQSI3IDKI6UKU.jpg');
+}
 
+#asplundhhtml {
+    background-image: url('https://scontent.ffsd3-1.fna.fbcdn.net/v/t1.18169-9/10906402_913056798718729_4181609526661770574_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=VOVrkhjm_1EAX8zWcyx&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfCmMGc23JE5gttV7LMJtTvM7wSKuYe3J_DW2Sw35jzssw&oe=6408FC6D');
+    background-size: 70%;
+}
+
+#axetothegrindhtml {
+    background-image: url('https://scontent.ffsd3-1.fna.fbcdn.net/v/t39.30808-6/288299346_507713491153908_7526769290362536885_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=lK4axGipnC8AX_-MNAI&_nc_ht=scontent.ffsd3-1.fna&oh=00_AfDrwvh3Am1935_zzFa_47jaX3sHuE8FH1jKqA5vQE319A&oe=63E72D22');
+    background-size: 50%;
+}
+
+body {
+    margin: 5%;
+}
 
 header {
     background-color: green;
     text-align: center;
+    padding-bottom: 50px;
+    
 }
 
 h1 {
     text-align: center;
     font-size: 100px
+}
+
+.coverphoto {
+    height: 400px;
+    float: right;
+    margin-left: 10px;
 }
 
 .headerlink {
@@ -29,18 +56,28 @@ h1 {
     background-color: orange;
 }
 
-body {
-    margin: 5%;
-}
+
 
 a {
     color: black;
 }
 
+
+/* _______________main ______________*/
+
 main {
     padding: 5%;
     font-size: 40px;
     margin: 5%;
+    
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
 }
 
 .mainclass {
